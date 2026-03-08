@@ -1,0 +1,28 @@
+# === Backend (Spring Boot / Java) ===
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/*.jar
+backend/*.war
+backend/*.class
+
+# === Frontend (Next.js / Node) ===
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Environment ===
+.env
+.env.local
+.env.*.local
